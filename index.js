@@ -13,7 +13,7 @@ const sampleEmployee = {
 		medium: "https://randomuser.me/api/portraits/med/men/40.jpg",
 	},
 };
-app.get("/api/employee", (req, res) => {
+app.get("/api/employees", (req, res) => {
 	res.json(sampleEmployee);
 });
 app.listen(PORT, () => {
